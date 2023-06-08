@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;600&family=Open+Sans+Condensed:wght@300;700&family=Roboto:wght@100;400;700;900&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.header___menu {
+  background-color: #181a19;
+  border-bottom: 0.5px solid dimgray;
+  height: 60px;
+}
+.header__list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+}
+.header__item {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  cursor: pointer;
+  transition: 0.1s all ease;
+}
+
+.header__item:hover {
+  background-color: #f06023;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #f5f6f7;
+  font-family: "Roboto", sans-serif;
+}
+
+.header__item.menu {
+  display: none;
+}
+
+.inicio__encabezado {
+  color: #f06023;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.inicio__detalle {
+  max-width: 700px;
+  font-size: 2rem;
+  color: #fff;
+  font-family: "Ibarra Real Nova", serif;
+}
+
+.inicio h1 {
+  max-width: 100%;
+  font-size: 120px;
+  font-family: "Ibarra Real Nova", serif;
+  font-weight: 600;
+  color: #fff;
+}
+
+.inicio__contactame {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-top: 35px;
+  width: 140px;
+  height: 35px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f06023;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sobre-mi__title {
+  font-size: 2rem;
+  color: #f06023;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.sobre-mi__detalle {
+  color: #f06023;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.sobre-mi {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  padding: 4rem;
+}
+.sobre-mi__info {
+  max-width: 85%;
+  font-size: 1.5rem;
+}
+
+.sobre-mi h3 {
+  color: #000;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.inicio {
+  height: calc(100vh - 5rem);
+  background-color: #181a19;
+  display: flex;
+  align-items: center;
+  padding-left: 4rem;
+}
+.inicio__informacion h1 {
+  color: #fff;
+}
+
+.habilidades {
+  background-color: #f06023;
+  height: auto;
+  padding: 4rem;
+  max-width: 100%;
+}
+
+.habilidades__title {
+  font-size: 2rem;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  padding-bottom: 1.5rem;
+}
+.habilidades__detalle {
+  max-width: 80%;
+  font-size: 2rem;
+  color: #333333;
+}
+.habilidad__lista {
+  list-style: none;
+  padding: 0.5rem 3rem;
+}
+.habilidad__lista li {
+  line-height: 1.8rem;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: rgb(41, 37, 37);
+}
+.sobre-mi__curriculum {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  margin-top: 35px;
+  width: 140px;
+  height: 35px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgb(41, 37, 37);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.footer {
+  text-align: center;
+}
+.footer__contacto {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer {
+  background-color: #333333;
+}
+.footer__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+.footer__redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+.footer__redes i {
+  font-size: 2rem;
+  color: #f5f6f7;
+}
+
+.footer__redes i:hover {
+  font-size: 2.5rem;
+  color: #f06023;
+}
+
+.footer__enlace {
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  list-style: none;
+  color: #f5f6f7;
+}
+
+.footer__derechos {
+  color: #f5f6f7;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  padding: 1rem;
+}
+/* Portafolio */
+.portafolio{
+  height: auto;
+  background-color: #f5f6f7;
+  display: flex;
+}
+.portafolio__cards{
+  max-width: 1600px;
+  margin: 5rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portafolio__img{
+  height: 100%;
+  width: 100%;
+}
+.portafolio__design{
+  width: 400px;
+  height: 230px;
+}
+
+.portafolio__design01{
+  width: 100%;
+  height: 100%; 
+  background-image: url("./../design/active-sta02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+.portafolio__design02{
+  width: 100%;
+  height: 100%; 
+  background-image: url("./../design/desktop-preview.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.portafolio__design03{
+  width: 100%;
+  height: 100%; 
+  background-image: url("./../design/active-state.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.portafolio__design04{
+  width: 100%;
+  height: 100%; 
+  background-image: url("./../design/desktop-previe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+  .header__list {
+    justify-content: flex-start;
+  }
+  .inicio {
+    padding-left: 4rem;
+  }
+  .inicio__encabezado {
+    font-size: 1rem;
+  }
+  .inicio__informacion h1 {
+    font-size: 4rem;
+  }
+
+  .inicio__detalle {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  .inicio__contactame {
+    width: 100px;
+    font-size: 0.8rem;
+  }
+
+  .sobre-mi__title {
+    font-size: 1.5rem;
+  }
+  .sobre-mi__title h3 {
+    font-size: 1.5rem;
+  }
+  .sobre-mi__detalle {
+    font-size: 1.5rem;
+  }
+
+  .sobre-mi__info {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 560px) {
+  .inicio {
+    padding-left: 1rem;
+  }
+  .header__item {
+    display: none;
+  }
+  .header__item.menu {
+    color: #f06023;
+    font-size: 2rem;
+    display: flex;
+    padding: 1.25rem;
+  }
+  .sobre-mi__info {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .sobre-mi {
+    padding-left: 1rem;
+    width: 100%;
+  }
+  .habilidades{
+    padding: 1rem;
+  }
+.habilidades__title{
+  font-size: 1.5rem;
+}
+.habilidades__detalle{
+  width: 100%;
+  font-size: 1.3rem;
+}
+.habilidad__lista{
+  padding: 1rem;
+}
+
+.habilidad__lista li{
+  font-size: 1rem;
+}
+.footer__enlace{
+  font-size: 1rem;
+}
+
+.footer__derechos h3{
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+.footer__derechos p{
+  padding-top: 1rem;
+  font-size: 0.8rem;
+}
+
+.footer__contacto{
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.portafolio__cards{
+  max-width:auto;
+  margin: 1rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.portafolio__design{
+  padding: 15px;
+  width: 280px;
+  height: 153px;
+}
+
+
+}
